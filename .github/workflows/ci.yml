@@ -23,5 +23,5 @@ jobs:
     - name: Docker Build
       run: docker build -t pulsifi-api .
     - name: Docker Push to Dockerhub
-      run: docker push pulsifi-api izzuddinrazi/pulsifi-api:latest
+      run: docker push izzuddinrazi/pulsifi-api:latest
       
