@@ -9,6 +9,7 @@ Run in Docker Development
 if any file changes 
 
 1. run bash docker/restart.sh
+2. refresh browser http://localhost:3000
 
 if wanted to stop docker-compose
 
