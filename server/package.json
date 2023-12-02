@@ -1,0 +1,19 @@
+{
+  "name": "pulsifi-api-fstify",
+  "version": "1.0.0",
+  "description": "assignment1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set NODE_ENV=development && nodemon index.js"
+  },
+  "author": "din",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

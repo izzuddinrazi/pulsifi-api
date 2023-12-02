@@ -1,0 +1,16 @@
+version: '4.0'
+
+services:
+  pulsifi_api:
+    image: pulsifi-api:v1.1-local
+    build:
+      context: ..
+      dockerfile: ./docker/DockerfileDev
+    container_name: pulsifi-api
+    hostname: pulsifi-api.test
+    restart: always    
+    ports:
+      - "3000:3000"
+    volumes:
+      - ../server:/pulsifi/server
+      - /pulsifi/server/node_modules
