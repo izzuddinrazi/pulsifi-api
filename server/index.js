@@ -6,7 +6,7 @@ const fastify = require('fastify')({
   
   // Declare a route
   fastify.get('/', function (request, reply) {
-    reply.send({ hello: 'Pulsifi Assignment 1 - create CI' })
+    reply.send({ hello: 'Pulsifi Assignment 1 - create CI - deploy to VM' })
   })
   
   // Run the server!
